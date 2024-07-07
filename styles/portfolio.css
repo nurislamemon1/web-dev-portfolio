@@ -7,6 +7,9 @@
 }
 
 /* shared style */
+.secondary-bg{
+      background-color: rgb(255, 248, 243) ;
+}
 .text-primary{
     color: rgb(253, 110, 10);
 }
@@ -22,6 +25,16 @@
     color: white;
     border-radius: 5px;
     border: none;
+   }
+   .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24) ;
+   }
+
+   .section-description{
+    font-size: 18px;
+    color: rgb(117, 117, 117);
    }
 
    /* header styles */
@@ -81,4 +94,26 @@ nav li a {
 
 .banner-pic{
     width: 584px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto ;
+}
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-description{
+    font-weight: 700;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
